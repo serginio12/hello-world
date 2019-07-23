@@ -1,0 +1,93 @@
+
+
+body{
+    
+    
+}
+
+
+.divider{
+    
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    background-color: burlywood;
+
+}
+
+.divider h1, p {
+    padding-top: 60px;
+    text-align: center;
+    
+}
+
+.header{
+    width: 100%;
+    position: relative;
+    height: 490px;
+    background: url(photo3.jpg) no-repeat -70px;
+    background-size: auto 910px;
+    background-repeat: no-repeat;
+background-attachment: fixed;
+    overflow: hidden;
+}
+
+.unu-logo{
+    height: 130px;
+    width: 700px;
+    background-size: cover;
+    position: absolute;
+    top: 60%;
+    left: 150px;
+    margin-top: -90px;
+    text-align: center;
+    z-index: 44;
+
+}
+
+.unu-logo h1{
+    margin: 0;
+    font-size: 57px;
+    color: darkred;
+    
+}
+
+.doi-centru{
+    background: url(photo4.jpg) no-repeat -210px;
+    
+    width: 400px;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 57%;
+    top: 75%;
+    overflow: hidden;
+}
+
+
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+}
+
+
+
+
+
