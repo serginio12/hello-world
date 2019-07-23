@@ -1,0 +1,15 @@
+
+git pull
+git status
+(creez, modifici)
+git add  (fisier)
+git commit --message "for me"
+git push
+
+
+git log
+
+
+
+
+git clone (adresa)
